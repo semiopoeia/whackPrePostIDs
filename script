@@ -128,6 +128,6 @@ for cluster in clusters:
 whackIDs['Cluster_ID'] = whackIDs.index.map(cluster_map)
 
 #exporting data
-output_file_name = 'C:/Users/PWS5/OneDrive - University of Pittsburgh/Desktop/StatDNP/whackIDsClustered.xlsx'
+output_file_name = 'C:/<<filepath>>/whackIDsClustered.xlsx'
 # index=False prevents pandas from writing the row indices as an extra column
 whackIDs.to_excel(output_file_name, index=False) 
